@@ -63,17 +63,6 @@ PulseVision/
 │   └── 07_Model.ipynb
 │
 ├── outputs/
-│   ├── roi_coords.npy           — per-frame forehead bounding boxes
-│   ├── R_signal.npy             — raw red channel time series
-│   ├── G_signal.npy             — raw green channel time series
-│   ├── B_signal.npy             — raw blue channel time series
-│   ├── rppg_signal.npy          — CHROM-extracted rPPG waveform
-│   ├── X_train.npy              — training clips (N, T, H, W, 3)
-│   ├── X_val.npy                — validation clips
-│   ├── y_train.npy              — training GT PPG labels
-│   ├── y_val.npy                — validation GT PPG labels
-│   ├── physnet_small.pt         — trained 3D CNN weights
-│   └── *.png                    — all generated figures
 │
 ├── utils/
 │   ├── __init__.py
