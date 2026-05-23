@@ -5,10 +5,9 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?style=flat-square&logo=opencv)
 ![SciPy](https://img.shields.io/badge/SciPy-1.13-blue?style=flat-square&logo=scipy)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Educational-purple?style=flat-square)
 
-An end-to-end remote photoplethysmography (rPPG) pipeline built from scratch in Jupyter notebooks. PulseVision extracts a pulse waveform and estimates heart rate directly from a face video — no contact, no specialized hardware, just a standard RGB camera recording.
+An end-to-end remote photoplethysmography (rPPG) pipeline built from scratch in Jupyter notebooks. PulseVision extracts a pulse waveform and estimates heart rate directly from a face video, no contact, no specialized hardware, just a standard RGB camera recording.
 
 This project was built as an educational exploration of both classical signal processing and deep learning approaches to the rPPG problem, using a single subject video from the UBFC-rPPG dataset.
 
@@ -355,9 +354,3 @@ Each notebook loads its inputs from `../outputs/` and saves its outputs there. T
 - Huang, B., et al. (2021). A neonatal dataset and benchmark for non-contact neonatal heart rate monitoring based on spatio-temporal neural networks. *Engineering Applications of Artificial Intelligence*, 106, 104447. — NBHR dataset.
 - Bobbia, S., et al. (2019). Unsupervised skin tissue segmentation for remote photoplethysmography. *Pattern Recognition Letters*, 124, 82–90. — UBFC-rPPG dataset.
 - Yu, Z., et al. (2019). Remote photoplethysmograph signal measurement from facial videos using spatio-temporal networks. *British Machine Vision Conference*. — PhysNet architecture.
-
----
-
-## License
-
-MIT License. See `LICENSE` for details. The UBFC-rPPG dataset is subject to its own academic use terms — see the dataset homepage for conditions.
